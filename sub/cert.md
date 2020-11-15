@@ -2,8 +2,9 @@
 
 * certificate = public key + metadata
 * format: ASN1
+* alternative: mkcert
 
-# Code
+## Code
 
 ```bash
 # cert for testing
