@@ -18,7 +18,6 @@
 * [gendsa](https://www.openssl.org/docs/manmaster/man1/openssl-gendsa.html) : generate a DSA private key from a set of parameters
 * [genpkey](https://www.openssl.org/docs/manmaster/man1/openssl-genpkey.html) : generate a private key
 * [genrsa](https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html) : generate an RSA private key
-* [help](https://www.openssl.org/docs/manmaster/man1/openssl-help.html) : 
 * [list](https://www.openssl.org/docs/manmaster/man1/openssl-list.html) : list algorithms and features
 * [nseq](https://www.openssl.org/docs/manmaster/man1/openssl-nseq.html) : create or examine a Netscape certificate sequence
 * [ocsp](https://www.openssl.org/docs/manmaster/man1/openssl-ocsp.html) : Online Certificate Status Protocol command
@@ -31,7 +30,7 @@
 * [pkeyutl](https://www.openssl.org/docs/manmaster/man1/openssl-pkeyutl.html) : public key algorithm command
 * [prime](https://www.openssl.org/docs/manmaster/man1/openssl-prime.html) : compute prime numbers
 * [rand](https://www.openssl.org/docs/manmaster/man1/openssl-rand.html) : generate pseudo-random bytes
-* [rehash](https://www.openssl.org/docs/manmaster/man1/openssl-rehash.html) : 
+* [rehash](https://www.openssl.org/docs/manmaster/man1/openssl-rehash.html) : Create symbolic links to files named by the hash values
 * [req](https://www.openssl.org/docs/manmaster/man1/openssl-req.html) : PKCS#10 certificate request and certificate generating command
 * [rsa](https://www.openssl.org/docs/manmaster/man1/openssl-rsa.html) : RSA key processing command
 * [rsautl](https://www.openssl.org/docs/manmaster/man1/openssl-rsautl.html) : RSA command
