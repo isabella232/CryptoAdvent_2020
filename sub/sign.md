@@ -1,12 +1,12 @@
 # Sign and Verify
 
-# Signature
+## Signature
 
 * signature = public key encrypted hash
 * verify = decrypt signature and compare with hash
 * don't use for messaging -> better gnupg
 
-# Code
+## Code
 ``` bash
 # data
 date > data.txt
