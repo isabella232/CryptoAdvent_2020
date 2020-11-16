@@ -1,7 +1,7 @@
 # Certificates
 
 * certificate = public key + metadata
-* format: ASN1
+* format: ASN1 (https://lapo.it/asn1js/)
 * alternative: mkcert
 
 ## Code
@@ -12,6 +12,7 @@ openssl req -x509 -newkey rsa:4096 -keyout key.pem -nodes -subj '/CN=localhost' 
 openssl x509 -in server.pem -text
 
 # serve on port 4433
+xdg-open "https://localhost:4433"
 openssl s_server -cert server.pem -key key.pem -www
 
 # ASN1
