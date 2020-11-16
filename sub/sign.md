@@ -4,7 +4,7 @@
 
 * signature = private key encrypted hash
 * verify = decrypt signature and compare with hash
-* don't use for messaging (replay attac) → better gnupg
+* don't use for messaging ([replay attack](https://en.wikipedia.org/wiki/Replay_attack)) → better gnupg
 
 ## Code
 ``` bash
