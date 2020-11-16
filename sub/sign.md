@@ -2,9 +2,9 @@
 
 ## Signature
 
-* signature = public key encrypted hash
+* signature = private key encrypted hash
 * verify = decrypt signature and compare with hash
-* don't use for messaging -> better gnupg
+* don't use for messaging (replay attac) → better gnupg
 
 ## Code
 ``` bash
@@ -28,7 +28,7 @@ openssl dgst -sha256 -binary < data.txt > hash
 
 # sign and verify with pkeyutl
 openssl pkeyutl -in hash -sign -inkey private.pem -pkeyopt digest:sha256 > signature
-openssl pkeyutl -in hash -verify -inkey public.pem -pubin -pkeyopt digest:sha256 -sigfile signature
+openssl pkeyutl -in hash -verify -pubin -inkey public.pem -pkeyopt digest:sha256 -sigfile signature
 ```
 
 ```bash
