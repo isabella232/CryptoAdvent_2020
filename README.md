@@ -9,12 +9,12 @@ SSL Secure Sockets Layer == TLS Transport Layer Security
 
 ## Sub
 
+* [Commands](sub/commands)
 * [Sign and Verify](sub/sign)
 * [Certificates](sub/cert)
 * [Server and Clients](sub/server)
-* [RSA/AES encryption/decryption](sub/encryp)
+* [RSA/AES encryption/decryption](sub/encrypt)
 * [C++ with OpenSSL](sub/code)
 * [Formats](sub/formats)
 * [Misc](sub/misc)
-* [Commands](sub/commands)
 * [Links](sub/links)
