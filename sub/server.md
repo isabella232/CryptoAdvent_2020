@@ -6,7 +6,7 @@
 
 * getting certificates from server
 * checking SSL handshake
-* [cert-info](cert-info)
+* [cert-info](https://raw.githubusercontent.com/elsamuko/tools/master/common/cert-info)
 
 ```bash
 # certificate
