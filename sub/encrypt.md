@@ -1,5 +1,6 @@
 # Encryption
 
+* IV == Initialization Vector == random data to xor first decrypted CBC block
 * AES CBC/ECB
     * change IV with every encryption!
 * RSA
