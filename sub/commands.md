@@ -3,8 +3,8 @@
 * [asn1parse](https://www.openssl.org/docs/manmaster/man1/openssl-asn1parse.html) : ASN.1 parsing command
 * [ca](https://www.openssl.org/docs/manmaster/man1/openssl-ca.html) : sample minimal CA application
 * [ciphers](https://www.openssl.org/docs/manmaster/man1/openssl-ciphers.html) : SSL cipher display and cipher list command
-* [cms](https://www.openssl.org/docs/manmaster/man1/openssl-cms.html) : CMS command
-* [crl](https://www.openssl.org/docs/manmaster/man1/openssl-crl.html) : CRL command
+* [cms](https://www.openssl.org/docs/manmaster/man1/openssl-cms.html) : CMS command (SMIME)
+* [crl](https://www.openssl.org/docs/manmaster/man1/openssl-crl.html) : CRL command (certificate revocation list)
 * [crl2pkcs7](https://www.openssl.org/docs/manmaster/man1/openssl-crl2pkcs7.html) : Create a PKCS#7 structure from a CRL and certificates
 * [dgst](https://www.openssl.org/docs/manmaster/man1/openssl-dgst.html) : perform digest operations
 * [dhparam](https://www.openssl.org/docs/manmaster/man1/openssl-dhparam.html) : DH parameter manipulation and generation
