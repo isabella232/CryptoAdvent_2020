@@ -8,6 +8,7 @@
     * mix with AES for large files
 * hash messages to avoid [bit flipping attacks](https://resources.infosecinstitute.com/topic/cbc-byte-flipping-attack-101-approach/)
 * first compress, then encrypt
+* mix with [openssl cms](https://www.misterpki.com/openssl-cms/)
 
 ## Code
 
@@ -56,12 +57,14 @@ openssl rand -hex 5000 > data.txt
 openssl req -x509 -key private.pem -subj "/CN=Hello" -days 365 -out cert.pem
 
 # encrypt
-openssl smime -encrypt -binary -aes-128-cbc -in data.txt cert.pem > encrypted.txt
-openssl smime -encrypt -binary -aes-128-cbc -in data.txt cert.pem > encrypted.txt
+# openssl smime -encrypt -binary -aes-128-cbc -in data.txt cert.pem > encrypted.txt
+openssl cms -encrypt -binary -aes-128-cbc -in data.txt cert.pem > encrypted.txt
+openssl cms -encrypt -binary -aes-128-cbc -in data.txt cert.pem > encrypted2.txt
 diff -sq encrypted.txt encrypted2.txt
 head -n 10 encrypted.txt
 
 #decrypt
-openssl smime -decrypt -binary -inkey private.pem -aes-128-cbc -in encrypted.txt > decrypted.txt
+# openssl smime -decrypt -binary -inkey private.pem -aes-128-cbc -in encrypted.txt > decrypted.txt
+openssl cms -decrypt -binary -in encrypted.txt -inkey private.pem > decrypted.txt
 diff -sq data.txt decrypted.txt
 ```
