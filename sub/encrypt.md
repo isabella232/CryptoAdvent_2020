@@ -3,6 +3,7 @@
 * IV == Initialization Vector == random data to xor first decrypted CBC block
 * AES CBC/ECB
     * change IV with every encryption!
+    * supported ciphers with `openssl list -cipher-commands`
 * RSA
     * limited to key size
     * mix with AES for large files
