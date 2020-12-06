@@ -7,6 +7,8 @@
 ## Code
 
 ```C++
+#include <openssl/sha.h>
+
 std::string sha256( const std::string& data ) {
 
     std::string digest( SHA256_DIGEST_LENGTH, '\0' );
