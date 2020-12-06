@@ -30,4 +30,4 @@ openssl s_server -cert server.pem -key key.pem -www
 
 ## SSL Labs
 
-https://www.ssllabs.com/ssltest/analyze.html
+[https://www.ssllabs.com/ssltest/analyze.html](https://www.ssllabs.com/ssltest/analyze.html)

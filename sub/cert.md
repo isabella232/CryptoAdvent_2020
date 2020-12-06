@@ -1,7 +1,7 @@
 # Certificates
 
 * certificate = public key + metadata
-* format: ASN1 (https://lapo.it/asn1js/)
+* format: ASN1 ([https://lapo.it/asn1js/](https://lapo.it/asn1js/))
 * alternative: mkcert
 
 ## Code
