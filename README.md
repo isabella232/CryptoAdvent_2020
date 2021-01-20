@@ -9,12 +9,12 @@ SSL Secure Sockets Layer == TLS Transport Layer Security
 
 ## Sub
 
-* [Commands](sub/commands)
-* [Sign and Verify](sub/sign)
-* [Certificates](sub/cert)
-* [Server and Clients](sub/server)
-* [RSA/AES encryption/decryption](sub/encrypt)
-* [C++ with OpenSSL](sub/code)
-* [Formats](sub/formats)
-* [Misc](sub/misc)
-* [Links](sub/links)
+* [Commands](https://elsamuko.github.io/CryptoAdvent_2020/sub/commands)
+* [Sign and Verify](https://elsamuko.github.io/CryptoAdvent_2020/)
+* [Certificates](https://elsamuko.github.io/CryptoAdvent_2020/)
+* [Server and Clients](https://elsamuko.github.io/CryptoAdvent_2020/)
+* [RSA/AES encryption/decryption](https://elsamuko.github.io/CryptoAdvent_2020/)
+* [C++ with OpenSSL](https://elsamuko.github.io/CryptoAdvent_2020/)
+* [Formats](https://elsamuko.github.io/CryptoAdvent_2020/)
+* [Misc](https://elsamuko.github.io/CryptoAdvent_2020/)
+* [Links](https://elsamuko.github.io/CryptoAdvent_2020/)
